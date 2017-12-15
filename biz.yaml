@@ -1,0 +1,12 @@
+runtime: python27
+api_version: 1
+threadsafe: true
+service: biz
+
+handlers:
+- url: /
+  static_files: website/biz/index.html
+  upload: website/biz/index.html
+
+- url: /
+  static_dir: website/biz
