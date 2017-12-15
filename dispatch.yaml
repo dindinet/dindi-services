@@ -1,0 +1,6 @@
+dispatch:
+  - url: "default.dindi.net/*"
+    service: default
+    
+  - url: "biz.dindi.net/*"
+    service: biz
